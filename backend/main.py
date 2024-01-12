@@ -7,7 +7,7 @@ from keras.utils import pad_sequences
 import numpy as np
 
 # Specify the path to your .h5 file
-file_path = r'C:\Users\Abraham\Afan-Oromo-Sentiment-Analysis\backend\model.h5'
+file_path = r'model.h5'
 
 # Load the model
 model = load_model(file_path)
